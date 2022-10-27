@@ -14,6 +14,9 @@ switch(e.target.innerText){
         break;
     case '=':
         try{
+            if(eval(display.innerText)==69)
+                display.innerText="Nice";
+            else
         display.innerText = eval(display.innerText);
         }
         catch{
